@@ -58,7 +58,6 @@ const cre_obj: pay = {
 }
 
 
-// payments(cre_obj)
 payments(cre_obj)
 
 
