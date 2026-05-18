@@ -116,7 +116,7 @@ interface err_handle extends Comman_res {
     error: errors[]
 }
 
-function values(val: boolean) {
+function valuess(val: boolean) {
     if (val == true) {
         const Suss: Success = {
             success: true, data: [{ id: 200, name: "Success" }, { id: 200, name: "Success" }], message: "Allowed", path: "./path", statuscode: 200
@@ -129,4 +129,4 @@ function values(val: boolean) {
     }
 }
 
-values(true)
+valuess(true)
