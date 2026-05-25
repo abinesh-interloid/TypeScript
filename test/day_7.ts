@@ -1,4 +1,4 @@
-const a: Array<number> = [-8, -2000, -70, -10000];
+const a: Array<number> = [-0, -2000, -70, -10000];
 let great = -Infinity;
 let small = -Infinity;
 for (let i = 0; i < a.length; i++) {
