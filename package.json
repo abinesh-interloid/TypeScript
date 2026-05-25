@@ -5,12 +5,23 @@
     "@typescript-eslint/parser": "^8.59.4",
     "eslint": "^10.4.0",
     "globals": "^17.6.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^17.0.5",
+    "prettier": "^3.8.3",
     "typescript-eslint": "^8.59.4"
   },
   "dependencies": {
     "express": "^5.2.1"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "husky",
+    "format": "prettier . --write"
+  },
+  "lint-staged": {
+    "*.{js,ts}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
