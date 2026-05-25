@@ -47,28 +47,30 @@
 // console.log(A79)
 
 function a465(a: string, b: number) {
-    let k12: never
+    // let k12: never
 
-    return a, b
+    return a, b;
 }
 
 type c = ReturnType<typeof a465>
 
-const a67 = a465("abi", 125)
+// const a67 = a465("abi", 125)
 
 
-let bl231: c = ["Abinesh", 111125]
-console.log(bl231)
+const bl231: c = ["Abinesh", 111125];
+console.log(bl231);
 
 
 
 
 
-console.log(c);
+// console.log(c);
 
-const a65 = a465("abi", 125)
+const a65 = a465("abi", 125);
+console.log(a65);
+
 
 type para = Parameters<typeof a465>
 
-let bl: para = ["Abinesh", 111125]
-console.log(bl)
+const bl: para = ["Abinesh", 111125];
+console.log(bl);

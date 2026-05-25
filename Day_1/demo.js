@@ -1,9 +1,5 @@
-interface User {
-    name: string;
-    age: number;
-}
-
-let person: User = {
+let person = {
     name: "Abi",
     age: 21
 };
+console.log(person);

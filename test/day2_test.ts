@@ -63,7 +63,7 @@
 
 
 function a111(a: number[] | undefined | null) {
-    console.log(a![0])
+    console.log(a![0]);
     // if (typeof (a) === "undefined") {
     //     console.log(a)
     // }
@@ -76,6 +76,6 @@ function a111(a: number[] | undefined | null) {
 
 
 
-let arr: number[] | undefined | null = [1, 2, 3];
+const arr: number[] | undefined | null = [1, 2, 3];
 
-a111(arr)
+a111(arr);
