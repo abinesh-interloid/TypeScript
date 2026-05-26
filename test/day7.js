@@ -64,12 +64,12 @@
 
 // console.log(arr2)
 
-function chunk(arr, size) {
-    const result = [];
-    for (let i = 0; i < arr.length; i += size) {
-        result.push(arr.slice(i, i + size));
-    }
-    return result;
-}
+// function chunk(arr, size) {
+//     const result = [];
+//     for (let i = 0; i < arr.length; i += size) {
+//         result.push(arr.slice(i, i + size));
+//     }
+//     return result;
+// }
 
-console.log(chunk([10, 20, 60, 75, 2, 6, 7, 6, 8], 6));
+// console.log(chunk([10, 20, 60, 75, 2, 6, 7, 6, 8], 6));
